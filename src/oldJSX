@@ -1,0 +1,33 @@
+ {/* <table>
+          <tr> 
+            <th>ID</th>
+            <th>Name of the Product</th>
+            <th> Quantity</th>
+            <th> Price </th>
+            <th> Total Amount </th>
+          </tr>
+          {
+            orderList.map((orderItem)=>{
+              return (
+                <tr>
+                  <td>{orderItem.id}</td>
+                  <td>{orderItem.name}</td>
+                  <td>{orderItem.quantity}</td>
+                  <td> {orderItem.price} </td>
+                  <td> {orderItem.price * orderItem.quantity} </td>
+                </tr>
+              )
+            })
+          }
+          <tr> 
+            <td> Total Amount </td>
+            <td> -- </td>
+            <td> -- </td>
+            <td> -- </td>
+            <td> {totalAmount} </td>
+          </tr>
+        </table> */}
+        {/* <SimpleCalculator />
+        <hr />
+        <SimpleUncontrolledCalc /> 
+        */}
